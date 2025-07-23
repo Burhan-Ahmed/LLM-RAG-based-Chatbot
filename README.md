@@ -1,2 +1,2 @@
-# LLM-RAG-based-ATS
+# LLM-RAG-based-Chatbot
 An Portfolio Project
