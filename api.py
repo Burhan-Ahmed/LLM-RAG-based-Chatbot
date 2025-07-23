@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-import speech_recognition as sr
-from fastapi.responses import JSONResponse
+#import speech_recognition as sr
+#from fastapi.responses import JSONResponse
 from chatbot import ask_crickchat  # assuming your logic is in voice.py
 
 # Initialize the FastAPI app
