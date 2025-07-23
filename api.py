@@ -10,7 +10,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://llm-rag-based-chatbot.vercel.app/"],  # 👈 React dev server
+    allow_origins=["https://llm-rag-based-chatbot.vercel.app"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
