@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212;
+  color: #f1f1f1;
+  height: 100vh;
+}
+
+.App {
+  width: 85%;
+  max-width: 600px; /* made it narrower */
+  margin: 30px auto;
+  padding: 2rem;
+  background: #1e1e1e;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  text-align: center;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #90ee90;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  background-color: #2c2c2c;
+  color: #f1f1f1;
+  border: 1px solid #444;
+  border-radius: 10px;
+}
+
+input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.mic-button,
+button[type="submit"] {
+  background: #444;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.mic-button:hover,
+button[type="submit"]:hover {
+  background: #555;
+}
+
+/* You can differentiate submit button color */
+button[type="submit"] {
+  background-color: #2e8b57;
+}
+
+button[type="submit"]:hover {
+  background-color: #256d45;
+}
+
+.response {
+  margin-top: 25px;
+  background: #2c2c2c;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  color: #dcdcdc;
+  min-height: 250px;
+  max-height: 400px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  text-align: left;
+}
