@@ -23,7 +23,7 @@ function App() {
     setResponse("");
 
     try {
-      const res = await fetch("https://llm-rag-based-chatbot-production.up.railway.app/", {
+      const res = await fetch("https://llm-rag-based-chatbot-production.up.railway.app/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -57,7 +57,7 @@ function App() {
       setQuestion(spokenText);
 
       try {
-        const res = await fetch("https://llm-rag-based-chatbot-production.up.railway.app/", {
+        const res = await fetch("https://llm-rag-based-chatbot-production.up.railway.app/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ question: spokenText }),
