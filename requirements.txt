@@ -1,24 +1,24 @@
 # --- FastAPI Web Server ---
-fastapi==0.111.0
-uvicorn==0.30.1
+fastapi
+uvicorn
 
 # --- Excel & Data Handling ---
-openpyxl==3.1.2
-pandas==2.2.2
+openpyxl
+pandas
 
 # --- LangChain Core (Aligned versions) ---
-langchain==0.1.20
-langchain-community==0.0.30
-langchain-huggingface==0.0.3
-langchain-core==0.1.46
+langchain
+langchain-community
+langchain-huggingface
+langchain-core
 
 # --- Transformers & Embeddings ---
-transformers==4.38.2
-sentence-transformers==2.5.1
-torch>=2.0.0
+transformers
+sentence-transformers
+torch
 
 # --- Vector store ---
-faiss-cpu==1.7.4
+faiss-cpu
 
 # --- CORS, multipart support ---
-python-multipart==0.0.9
+python-multipart
