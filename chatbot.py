@@ -26,7 +26,7 @@ embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L
 db = FAISS.from_texts(docs, embedding)
 
 # ✅ Load FLAN-T5 model
-model_name = "google/flan-t5-base"
+model_name =  "google/flan-t5-small"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
