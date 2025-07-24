@@ -1,24 +1,8 @@
-# --- FastAPI Web Server ---
 fastapi
 uvicorn
-
-# --- Excel & Data Handling ---
-openpyxl
+pydantic
 pandas
-
-# --- LangChain Core (Aligned versions) ---
 langchain
-langchain-community
-langchain-huggingface
-langchain-core
-
-# --- Transformers & Embeddings ---
 transformers
 sentence-transformers
-torch
-
-# --- Vector store ---
-faiss-cpu
-
-# --- CORS, multipart support ---
-python-multipart
+langchain-community
