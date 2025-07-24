@@ -2,3 +2,18 @@ fastapi
 uvicorn
 openpyxl
 pandas
+
+# --- LangChain ecosystem ---
+langchain==0.2.3
+langchain-community==0.2.3
+langchain-huggingface==0.0.6
+
+# --- HuggingFace Transformers ---
+transformers==4.40.2
+sentence-transformers==2.6.1
+
+# --- PyTorch (CPU or GPU based on your system) ---
+torch>=2.0.0
+
+# --- Text embedding and FAISS store ---
+faiss-cpu==1.7.4  # If you are NOT using GPU
