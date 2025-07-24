@@ -1,19 +1,26 @@
-fastapi
-uvicorn
-openpyxl
-pandas
+
+# --- Core web server ---
+fastapi==0.116.1
+uvicorn==0.35.0
+
+# --- Excel & Data Handling ---
+openpyxl==3.1.5
+pandas==2.3.1
 
 # --- LangChain ecosystem ---
-langchain
-langchain-community
-langchain-huggingface
+langchain==0.2.3
+langchain-community==0.2.3
+langchain-huggingface==0.3.1
 
 # --- HuggingFace Transformers ---
-transformers
-sentence-transformers
+transformers==4.40.2
+sentence-transformers==2.6.1
 
-# --- PyTorch (CPU or GPU based on your system) ---
-torch
+# --- PyTorch CPU ---
+torch>=2.0.0
 
-# --- Text embedding and FAISS store ---
-faiss-cpu
+# --- FAISS (vector store) ---
+faiss-cpu==1.7.4
+
+# --- CORS support (optional if used in FastAPI app) ---
+python-multipart==0.0.9
