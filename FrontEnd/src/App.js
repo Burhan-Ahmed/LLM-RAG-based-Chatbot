@@ -23,7 +23,7 @@ function App() {
     setResponse("");
 
     try {
-      const res = await fetch("https://llm-rag-based-chatbot-production.up.railway.app/chat", {
+      const res = await fetch("https://mburhannahmed-chatbot.hf.space/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
