@@ -42,7 +42,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:8000/chat", {
+      const res = await fetch("https://mburhannahmed-chatbot.hf.space/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
@@ -68,7 +68,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:8000/voice");
+      const res = await fetch("https://mburhannahmed-chatbot.hf.space/chat");
       const data = await res.json();
 
       if (data.answer) {
