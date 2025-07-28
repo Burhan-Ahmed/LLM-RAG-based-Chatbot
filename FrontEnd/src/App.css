@@ -35,6 +35,38 @@ form {
   align-items: center;
 }
 
+
+.chat-history {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Chat message container */
+.chat-message {
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 15px;
+  word-wrap: break-word;
+}
+
+/* Bot messages - left aligned */
+.chat-message.bot {
+  align-self: flex-start;
+  background-color: #313030;
+  text-align: left;
+}
+
+/* User messages - right aligned */
+.chat-message.user {
+  align-self: flex-end;
+  background-color: #404340;
+  text-align: right;
+}
+
+
+
 .input-container {
   display: flex;
   align-items: center;
@@ -96,3 +128,5 @@ button[type="submit"]:hover {
   white-space: pre-wrap;
   text-align: left;
 }
+
+
